@@ -1,8 +1,8 @@
 //import { test, expect } from '@playwright/test';
 //import {test} from '../fixtures/pom-fixture.ts'
-import CommonUtils from '../utils/CommonUtils.ts';
-import {test} from '../fixtures/hooks-fixture.ts';
-import { LoginPage } from '../pages/LoginPage.ts';
+import CommonUtils from '../../utils/CommonUtils.ts';
+import {test} from '../../fixtures/hooks-fixture.ts';
+import { LoginPage } from '../../pages/LoginPage.ts';
 import { expect } from '@playwright/test';
 //import { LoginPage } from '../pages/LoginPage';
 

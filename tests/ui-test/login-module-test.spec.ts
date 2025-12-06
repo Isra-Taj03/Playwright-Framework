@@ -1,7 +1,7 @@
 import { expect } from '@playwright/test';
-import {test} from '../fixtures/hooks-fixture.ts';
+import {test} from '../../fixtures/hooks-fixture.ts';
 
-import loginModuleData from '../data/login-module-data.json';
+import loginModuleData from '../../data/ui-data/login-module-data.json';
 
 test.use({
   storageState: {
@@ -29,7 +29,7 @@ test('test [Login] Verify that the user can not log in with an invalid password.
 test('test [Login] Verify that the user can not log in with an invalid username.',{ 
   tag:['@UI','@UAT']
 }, async ({gotoUrl, loginPageFixture, commonUtils }) => {
-  const password = commonUtils.decryptData(process.env.PASSWORD1!);
+  const password = commonUtils.decryptData(process.env.PASSWORD!);
   await loginPageFixture.loginOrangeHrm(loginModuleData.wrong_username, password);
   await expect(loginPageFixture.invalidCredentialsErrorPopup).toHaveText(loginModuleData.invalid_credentials_text);
   await expect(loginPageFixture.userNameInput).toBeVisible();

@@ -7,7 +7,7 @@ export class UserPage{
 
     constructor(page:Page){
         this.page=page;
-        this.userMenueButton=page.locator('.class="oxd-userdropdown-tab"');
+        this.userMenueButton=page.locator('.oxd-userdropdown-tab');
         this.logoutButton=page.getByRole('menuitem',{name:'Logout'})
     }
 
