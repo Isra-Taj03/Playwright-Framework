@@ -1,0 +1,319 @@
+<testsuites id="" name="" tests="14" failures="5" skipped="6" errors="0" time="23.915135999999997">
+<testsuite name="global.setup.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="Setup" tests="1" failures="1" skipped="0" time="0.021" errors="0">
+<testcase name="Global setup for login" classname="global.setup.ts" time="0.021">
+<failure message="global.setup.ts:6:5 Global setup for login" type="FAILURE">
+<![CDATA[  [Setup] › global.setup.ts:6:5 › Global setup for login ───────────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\Tesla Laptops\AppData\Local\ms-playwright\chromium_headless_shell-1194\chrome-win\headless_shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     npx playwright install                                              ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\test-results\global.setup.ts-Global-setup-for-login-Setup\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\test-results\global.setup.ts-Global-setup-for-login-Setup\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|global.setup.ts-Global-setup-for-login-Setup\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login-module-test.spec.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Invalid login Test › test [Login] Verify that the user can not log in with an invalid password." classname="login-module-test.spec.ts" time="0">
+<properties>
+<property name="Story Link" value="Link of Story https://dev.azure.com/wishinfinite/WishInfinite/_workitems/edit/1/">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Invalid login Test › test [Login] Verify that the user can not log in with an invalid username." classname="login-module-test.spec.ts" time="0">
+<properties>
+<property name="Story Link" value="Link of Story https://dev.azure.com/wishinfinite/WishInfinite/_workitems/edit/1/">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="test [Login] Verify that the user can not log in with both an invalid username and password." classname="login-module-test.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="pim-module.spec.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="PIM|Verify that a new employee is successfully created under the PIM module." classname="pim-module.spec.ts" time="0">
+<properties>
+<property name="jira test case link" value="https://jira.company.com/PROJ-101">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="temp-test.spec.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Temp test" classname="temp-test.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="validating Title" classname="temp-test.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="..\api-test\restful-booker-api-module.spec.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="apiTest" tests="7" failures="4" skipped="0" time="11.438" errors="0">
+<testcase name="Api Testing" classname="..\api-test\restful-booker-api-module.spec.ts" time="2.129">
+<system-out>
+<![CDATA[[
+  { bookingid: [33m1094[39m }, { bookingid: [33m1429[39m }, { bookingid: [33m2014[39m },
+  { bookingid: [33m3290[39m }, { bookingid: [33m2450[39m }, { bookingid: [33m1970[39m },
+  { bookingid: [33m2399[39m }, { bookingid: [33m2942[39m }, { bookingid: [33m1075[39m },
+  { bookingid: [33m3347[39m }, { bookingid: [33m2652[39m }, { bookingid: [33m902[39m },
+  { bookingid: [33m1236[39m }, { bookingid: [33m3765[39m }, { bookingid: [33m1754[39m },
+  { bookingid: [33m2213[39m }, { bookingid: [33m367[39m },  { bookingid: [33m3882[39m },
+  { bookingid: [33m1060[39m }, { bookingid: [33m948[39m },  { bookingid: [33m1314[39m },
+  { bookingid: [33m3969[39m }, { bookingid: [33m1409[39m }, { bookingid: [33m260[39m },
+  { bookingid: [33m3751[39m }, { bookingid: [33m3095[39m }, { bookingid: [33m218[39m },
+  { bookingid: [33m3175[39m }, { bookingid: [33m48[39m },   { bookingid: [33m3413[39m },
+  { bookingid: [33m2861[39m }, { bookingid: [33m3879[39m }, { bookingid: [33m2196[39m },
+  { bookingid: [33m914[39m },  { bookingid: [33m556[39m },  { bookingid: [33m1583[39m },
+  { bookingid: [33m1088[39m }, { bookingid: [33m647[39m },  { bookingid: [33m3188[39m },
+  { bookingid: [33m2181[39m }, { bookingid: [33m3243[39m }, { bookingid: [33m1221[39m },
+  { bookingid: [33m2030[39m }, { bookingid: [33m3685[39m }, { bookingid: [33m1804[39m },
+  { bookingid: [33m790[39m },  { bookingid: [33m2819[39m }, { bookingid: [33m3441[39m },
+  { bookingid: [33m97[39m },   { bookingid: [33m176[39m },  { bookingid: [33m2921[39m },
+  { bookingid: [33m3797[39m }, { bookingid: [33m572[39m },  { bookingid: [33m3076[39m },
+  { bookingid: [33m3483[39m }, { bookingid: [33m2774[39m }, { bookingid: [33m359[39m },
+  { bookingid: [33m665[39m },  { bookingid: [33m1365[39m }, { bookingid: [33m3289[39m },
+  { bookingid: [33m2512[39m }, { bookingid: [33m2150[39m }, { bookingid: [33m996[39m },
+  { bookingid: [33m3099[39m }, { bookingid: [33m2084[39m }, { bookingid: [33m2831[39m },
+  { bookingid: [33m1766[39m }, { bookingid: [33m2544[39m }, { bookingid: [33m928[39m },
+  { bookingid: [33m484[39m },  { bookingid: [33m530[39m },  { bookingid: [33m2916[39m },
+  { bookingid: [33m741[39m },  { bookingid: [33m2967[39m }, { bookingid: [33m67[39m },
+  { bookingid: [33m1242[39m }, { bookingid: [33m1632[39m }, { bookingid: [33m3522[39m },
+  { bookingid: [33m2378[39m }, { bookingid: [33m142[39m },  { bookingid: [33m2148[39m },
+  { bookingid: [33m2365[39m }, { bookingid: [33m1675[39m }, { bookingid: [33m3761[39m },
+  { bookingid: [33m327[39m },  { bookingid: [33m1691[39m }, { bookingid: [33m3919[39m },
+  { bookingid: [33m872[39m },  { bookingid: [33m270[39m },  { bookingid: [33m1280[39m },
+  { bookingid: [33m2408[39m }, { bookingid: [33m1850[39m }, { bookingid: [33m428[39m },
+  { bookingid: [33m3825[39m }, { bookingid: [33m887[39m },  { bookingid: [33m3659[39m },
+  { bookingid: [33m3686[39m }, { bookingid: [33m3743[39m }, { bookingid: [33m3111[39m },
+  { bookingid: [33m3476[39m },
+  ... 2626 more items
+]
+]]>
+</system-out>
+</testcase>
+<testcase name="id - 8 [Restful-Booker &gt; Booking] Verify that the user is able to fetch all the booking IDs using GET API and receive valid response" classname="..\api-test\restful-booker-api-module.spec.ts" time="0.611">
+<properties>
+<property name="Test Case link" value="https://dev.azure.com/wishinfinite/Wishinfinite/_workitems/edit/8">
+</property>
+</properties>
+<system-out>
+<![CDATA[[
+  { bookingid: [33m1094[39m }, { bookingid: [33m1429[39m }, { bookingid: [33m2014[39m },
+  { bookingid: [33m3290[39m }, { bookingid: [33m2450[39m }, { bookingid: [33m1970[39m },
+  { bookingid: [33m2399[39m }, { bookingid: [33m2942[39m }, { bookingid: [33m1075[39m },
+  { bookingid: [33m3347[39m }, { bookingid: [33m2652[39m }, { bookingid: [33m902[39m },
+  { bookingid: [33m1236[39m }, { bookingid: [33m3765[39m }, { bookingid: [33m1754[39m },
+  { bookingid: [33m2213[39m }, { bookingid: [33m367[39m },  { bookingid: [33m3882[39m },
+  { bookingid: [33m1060[39m }, { bookingid: [33m948[39m },  { bookingid: [33m1314[39m },
+  { bookingid: [33m3969[39m }, { bookingid: [33m1409[39m }, { bookingid: [33m260[39m },
+  { bookingid: [33m3751[39m }, { bookingid: [33m3095[39m }, { bookingid: [33m218[39m },
+  { bookingid: [33m3175[39m }, { bookingid: [33m48[39m },   { bookingid: [33m3413[39m },
+  { bookingid: [33m2861[39m }, { bookingid: [33m3879[39m }, { bookingid: [33m2196[39m },
+  { bookingid: [33m914[39m },  { bookingid: [33m556[39m },  { bookingid: [33m1583[39m },
+  { bookingid: [33m1088[39m }, { bookingid: [33m647[39m },  { bookingid: [33m3188[39m },
+  { bookingid: [33m2181[39m }, { bookingid: [33m3243[39m }, { bookingid: [33m1221[39m },
+  { bookingid: [33m2030[39m }, { bookingid: [33m3685[39m }, { bookingid: [33m1804[39m },
+  { bookingid: [33m790[39m },  { bookingid: [33m2819[39m }, { bookingid: [33m3441[39m },
+  { bookingid: [33m97[39m },   { bookingid: [33m176[39m },  { bookingid: [33m2921[39m },
+  { bookingid: [33m3797[39m }, { bookingid: [33m572[39m },  { bookingid: [33m3076[39m },
+  { bookingid: [33m3483[39m }, { bookingid: [33m2774[39m }, { bookingid: [33m359[39m },
+  { bookingid: [33m665[39m },  { bookingid: [33m1365[39m }, { bookingid: [33m3289[39m },
+  { bookingid: [33m2512[39m }, { bookingid: [33m2150[39m }, { bookingid: [33m996[39m },
+  { bookingid: [33m3099[39m }, { bookingid: [33m2084[39m }, { bookingid: [33m2831[39m },
+  { bookingid: [33m1766[39m }, { bookingid: [33m2544[39m }, { bookingid: [33m928[39m },
+  { bookingid: [33m484[39m },  { bookingid: [33m530[39m },  { bookingid: [33m2916[39m },
+  { bookingid: [33m741[39m },  { bookingid: [33m2967[39m }, { bookingid: [33m67[39m },
+  { bookingid: [33m1242[39m }, { bookingid: [33m1632[39m }, { bookingid: [33m3522[39m },
+  { bookingid: [33m2378[39m }, { bookingid: [33m142[39m },  { bookingid: [33m2148[39m },
+  { bookingid: [33m2365[39m }, { bookingid: [33m1675[39m }, { bookingid: [33m3761[39m },
+  { bookingid: [33m327[39m },  { bookingid: [33m1691[39m }, { bookingid: [33m3919[39m },
+  { bookingid: [33m872[39m },  { bookingid: [33m270[39m },  { bookingid: [33m1280[39m },
+  { bookingid: [33m2408[39m }, { bookingid: [33m1850[39m }, { bookingid: [33m428[39m },
+  { bookingid: [33m3825[39m }, { bookingid: [33m887[39m },  { bookingid: [33m3659[39m },
+  { bookingid: [33m3686[39m }, { bookingid: [33m3743[39m }, { bookingid: [33m3111[39m },
+  { bookingid: [33m3476[39m },
+  ... 2634 more items
+]
+]]>
+</system-out>
+</testcase>
+<testcase name="id - 9 [Restful-Booker &gt; Booking] Verify that the user is able to fetch booking details for a booking id using GET API and receives" classname="..\api-test\restful-booker-api-module.spec.ts" time="0.329">
+<properties>
+<property name="Test Case link" value="https://dev.azure.com/wishinfinite/Wishinfinite/_workitems/edit/9">
+</property>
+</properties>
+<failure message="restful-booker-api-module.spec.ts:32:7 id - 9 [Restful-Booker &gt; Booking] Verify that the user is able to fetch booking details for a booking id using GET API and receives" type="FAILURE">
+<![CDATA[  [apiTest] › ..\api-test\restful-booker-api-module.spec.ts:32:7 › id - 9 [Restful-Booker > Booking] Verify that the user is able to fetch booking details for a booking id using GET API and receives @API @UAT 
+
+    SyntaxError: Unexpected token 'N', "Not Found" is not valid JSON
+
+      39 | ,async({request})=>{
+      40 |   const bookingResp = await request.get(`${apiPathData.booking_path}/${restfulApiData.booking_id}`);
+    > 41 |   const bookingJsonResp = await bookingResp.json();
+         |                           ^
+      42 |   console.log(bookingJsonResp);
+      43 |   expect(bookingResp.status()).toBe(200);
+      44 |   expect(bookingResp.statusText()).toBe('OK');
+        at C:\PlaywrightProjects\Playwright_Framework\tests\api-test\restful-booker-api-module.spec.ts:41:27
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\test-results\restful-booker-api-module--2d81f--using-GET-API-and-receives-apiTest\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\test-results\restful-booker-api-module--2d81f--using-GET-API-and-receives-apiTest\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|restful-booker-api-module--2d81f--using-GET-API-and-receives-apiTest\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="id - 10 [Restful-Booker &gt; Booking] Verify that the user is able to create new booking using Post API and receive valid response" classname="..\api-test\restful-booker-api-module.spec.ts" time="2.566">
+<properties>
+<property name="Test Case Link" value="https://dev.azure.com/wishinfinite/Wishinfinite/_workitems/edit/9">
+</property>
+</properties>
+</testcase>
+<testcase name="id - 11 [Restful-Booker &gt; Booking] Verify that the user is able to Update existing booking using Put API and receive valid response" classname="..\api-test\restful-booker-api-module.spec.ts" time="0.693">
+<properties>
+<property name="Test Case Link" value="https://dev.azure.com/wishinfinite/Wishinfinite/_workitems/edit/11">
+</property>
+</properties>
+<failure message="restful-booker-api-module.spec.ts:66:5 id - 11 [Restful-Booker &gt; Booking] Verify that the user is able to Update existing booking using Put API and receive valid response" type="FAILURE">
+<![CDATA[  [apiTest] › ..\api-test\restful-booker-api-module.spec.ts:66:5 › id - 11 [Restful-Booker > Booking] Verify that the user is able to Update existing booking using Put API and receive valid response @API @UAT 
+
+    SyntaxError: Unexpected token 'F', "Forbidden" is not valid JSON
+
+      78 |     data:restfulApiData.update_booking
+      79 |   })
+    > 80 |  const updateBookingJsonRes=await updateBookingRes.json();
+         |                             ^
+      81 |  expect(updateBookingRes.status()).toBe(200);
+      82 |  expect(updateBookingJsonRes).toMatchObject(restfulApiData.update_booking);
+      83 | }
+        at C:\PlaywrightProjects\Playwright_Framework\tests\api-test\restful-booker-api-module.spec.ts:80:29
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\test-results\restful-booker-api-module--85ccd--and-receive-valid-response-apiTest\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\test-results\restful-booker-api-module--85ccd--and-receive-valid-response-apiTest\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+
+[90mundefined[39m
+
+[[ATTACHMENT|restful-booker-api-module--85ccd--and-receive-valid-response-apiTest\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="ID -12 - [Restful-Booker] Booking Verify that the user is able to partially update existing booking using PATCH API and receive val" classname="..\api-test\restful-booker-api-module.spec.ts" time="2.74">
+<properties>
+<property name="Test Case Link" value="https://dev.azure.com/wishinfinite/WishInfinite/_workitems/edit/12">
+</property>
+</properties>
+<failure message="restful-booker-api-module.spec.ts:86:5 ID -12 - [Restful-Booker] Booking Verify that the user is able to partially update existing booking using PATCH API and receive val" type="FAILURE">
+<![CDATA[  [apiTest] › ..\api-test\restful-booker-api-module.spec.ts:86:5 › ID -12 - [Restful-Booker] Booking Verify that the user is able to partially update existing booking using PATCH API and receive val @API @UAT 
+
+    SyntaxError: Unexpected token 'F', "Forbidden" is not valid JSON
+
+      102 |   })
+      103 |
+    > 104 |   const partialUpdateBookingJsonResp = await partialUpdateBookingResp.json();
+          |                                        ^
+      105 |   expect(partialUpdateBookingResp.status()).toBe(200);
+      106 |   expect(partialUpdateBookingJsonResp.firstname).toMatch(restfulApiData.update_partial_booking.firstname);
+      107 |    expect(partialUpdateBookingJsonResp.lastname).toMatch(restfulApiData.update_partial_booking.lastname);
+        at C:\PlaywrightProjects\Playwright_Framework\tests\api-test\restful-booker-api-module.spec.ts:104:40
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\test-results\restful-booker-api-module--dba70-g-PATCH-API-and-receive-val-apiTest\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\test-results\restful-booker-api-module--dba70-g-PATCH-API-and-receive-val-apiTest\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+
+[90mundefined[39m
+
+[[ATTACHMENT|restful-booker-api-module--dba70-g-PATCH-API-and-receive-val-apiTest\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="ID -13 - [Restful-Booker] Booking Verify that the user is able to delete existing booking using Delete API and receive valid re" classname="..\api-test\restful-booker-api-module.spec.ts" time="2.37">
+<properties>
+<property name="Test Case Link" value="https://dev.azure.com/wishinfinite/WishInfinite/_workitems/edit/13">
+</property>
+</properties>
+<failure message="restful-booker-api-module.spec.ts:110:5 ID -13 - [Restful-Booker] Booking Verify that the user is able to delete existing booking using Delete API and receive valid re" type="FAILURE">
+<![CDATA[  [apiTest] › ..\api-test\restful-booker-api-module.spec.ts:110:5 › ID -13 - [Restful-Booker] Booking Verify that the user is able to delete existing booking using Delete API and receive valid re @API @UAT 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 201
+    Received: 403
+
+      126 |   });
+      127 |
+    > 128 |   expect(deleteBookingResp.status()).toBe(201);
+          |                                      ^
+      129 |   expect(deleteBookingResp.statusText()).toBe("Created"); // NOTE: Status text 'Created' (201) is often incorrect for a successful DELETE (should be 204 No Content or 200 OK)
+      130 |
+      131 |   const getBookingResp = await request.get(`${apiPathData.booking_path}/${restfulApiData.booking_id3}`);
+        at C:\PlaywrightProjects\Playwright_Framework\tests\api-test\restful-booker-api-module.spec.ts:128:38
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\..\test-results\restful-booker-api-module--c36ce-te-API-and-receive-valid-re-apiTest\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\..\test-results\restful-booker-api-module--c36ce-te-API-and-receive-valid-re-apiTest\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+
+[90mundefined[39m
+
+[[ATTACHMENT|restful-booker-api-module--c36ce-te-API-and-receive-valid-re-apiTest\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

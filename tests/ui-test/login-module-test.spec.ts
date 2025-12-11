@@ -3,6 +3,7 @@ import {test} from '../../fixtures/hooks-fixture.ts';
 
 import loginModuleData from '../../data/ui-data/login-module-data.json';
 
+console.log("we make cookies and orgins empty so that it will not take the storage state that we have saved....")
 test.use({
   storageState: {
     cookies: [],
