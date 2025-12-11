@@ -6,18 +6,26 @@
 trigger:
 - main
 
+# schedules:
+#   - cron: "19 21 * * *"
+#     displayName: "Daily Automatic pipeline Run"
+#     branches:
+#       include:
+#         - main
+#     always: true
+
 pool:
   vmImage: ubuntu-latest #windows-latest #macos-latest
 
-parameters:
-  - name: SCRIPT_KEY_VAL2
-    displayName: 'Select Script Key'
-    type: string
-    default: 'test_demo_ui_cr_hl_api_nonvisual'
-    values:
-      - test_demo_ui_cr_hl_api_nonvisual
-      - test_demo
-      - test_demo_cr_hl
+# parameters:
+#   - name: SCRIPT_KEY_VAL2
+#     displayName: 'Select Script Key'
+#     type: string
+#     default: 'test_demo_ui_cr_hl_api_nonvisual'
+#     values:
+#       - test_demo_ui_cr_hl_api_nonvisual
+#       - test_demo
+#       - test_demo_cr_hl
 
 steps:
 - task: NodeTool@0
@@ -31,6 +39,20 @@ steps:
 - script: npx playwright install --with-deps
   displayName: 'Install Playwright Browsers'
 
-# - script: SECRET_KEY=$(SECRET_KEY_VAL) npm run $(SCRIPT_KEY_VAL)
-- script: SECRET_KEY=$(SECRET_KEY_VAL) npm run {{parameters.SCRIPT_KEY_VAL2}}
+- script: SECRET_KEY=$(SECRET_KEY_VAL) npm run $(SCRIPT_KEY_VAL)
+# - script: SECRET_KEY=$(SECRET_KEY_VAL) npm run $({{parameters.SCRIPT_KEY_VAL2}})
   displayName: 'Run Tests'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: 'playwright-report'
+    artifact: 'Playwright HTML Report'
+    publishLocation: 'pipeline'
+  condition: always()
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**test-results/junit-report.xml'
+    testRunTitle: 'Playwright Junit Report'
+  condition: always()
