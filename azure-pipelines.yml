@@ -43,12 +43,12 @@ steps:
 - script: SECRET_KEY=$(SECRET_KEY_VAL) npm run $({{parameters.SCRIPT_KEY_VAL2}})
   displayName: 'Run Tests'
 
-# - task: PublishPipelineArtifact@1
-#   inputs:
-#     targetPath: 'playwright-report'
-#     artifact: 'Playwright HTML Report'
-#     publishLocation: 'pipeline'
-#   condition: always()
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: 'playwright-report'
+    artifact: 'Playwright HTML Report'
+    publishLocation: 'pipeline'
+  condition: always()
 
 - task: PublishTestResults@2
   inputs:
