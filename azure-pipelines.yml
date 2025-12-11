@@ -40,7 +40,7 @@ steps:
   displayName: 'Install Playwright Browsers'
 
 # - script: SECRET_KEY=$(SECRET_KEY_VAL) npm run $(SCRIPT_KEY_VAL)
-- script: SECRET_KEY=$(SECRET_KEY_VAL) npm run $({{parameters.SCRIPT_KEY_VAL2}})
+- script: SECRET_KEY=$(SECRET_KEY_VAL) npm run {{parameters.SCRIPT_KEY_VAL2}}
   displayName: 'Run Tests'
 
 - task: PublishPipelineArtifact@1
