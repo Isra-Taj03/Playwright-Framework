@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="14" failures="5" skipped="6" errors="0" time="23.915135999999997">
-<testsuite name="global.setup.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="Setup" tests="1" failures="1" skipped="0" time="0.021" errors="0">
-<testcase name="Global setup for login" classname="global.setup.ts" time="0.021">
+<testsuites id="" name="" tests="15" failures="5" skipped="7" errors="0" time="19.521935000000003">
+<testsuite name="global.setup.ts" timestamp="2025-12-12T04:54:27.173Z" hostname="Setup" tests="1" failures="1" skipped="0" time="0.017" errors="0">
+<testcase name="Global setup for login" classname="global.setup.ts" time="0.017">
 <failure message="global.setup.ts:6:5 Global setup for login" type="FAILURE">
 <![CDATA[  [Setup] › global.setup.ts:6:5 › Global setup for login ───────────────────────────────────────────
 
@@ -30,7 +30,7 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="login-module-test.spec.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testsuite name="login-module-test.spec.ts" timestamp="2025-12-12T04:54:27.173Z" hostname="chromium" tests="4" failures="0" skipped="4" time="0" errors="0">
 <testcase name="Invalid login Test › test [Login] Verify that the user can not log in with an invalid password." classname="login-module-test.spec.ts" time="0">
 <properties>
 <property name="Story Link" value="Link of Story https://dev.azure.com/wishinfinite/WishInfinite/_workitems/edit/1/">
@@ -51,8 +51,16 @@
 <skipped>
 </skipped>
 </testcase>
+<testcase name="[Login] Verify that the user can log in with valid username and password." classname="login-module-test.spec.ts" time="0">
+<properties>
+<property name="Test Case Link" value="https://dev.azure.com/wishinfinite/WishInfinite/_workitems/edit/7/">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
 </testsuite>
-<testsuite name="pim-module.spec.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testsuite name="pim-module.spec.ts" timestamp="2025-12-12T04:54:27.173Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
 <testcase name="PIM|Verify that a new employee is successfully created under the PIM module." classname="pim-module.spec.ts" time="0">
 <properties>
 <property name="jira test case link" value="https://jira.company.com/PROJ-101">
@@ -62,7 +70,7 @@
 </skipped>
 </testcase>
 </testsuite>
-<testsuite name="temp-test.spec.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testsuite name="temp-test.spec.ts" timestamp="2025-12-12T04:54:27.173Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
 <testcase name="Temp test" classname="temp-test.spec.ts" time="0">
 <skipped>
 </skipped>
@@ -72,96 +80,96 @@
 </skipped>
 </testcase>
 </testsuite>
-<testsuite name="..\api-test\restful-booker-api-module.spec.ts" timestamp="2025-12-11T07:38:18.575Z" hostname="apiTest" tests="7" failures="4" skipped="0" time="11.438" errors="0">
-<testcase name="Api Testing" classname="..\api-test\restful-booker-api-module.spec.ts" time="2.129">
+<testsuite name="..\api-test\restful-booker-api-module.spec.ts" timestamp="2025-12-12T04:54:27.173Z" hostname="apiTest" tests="7" failures="4" skipped="0" time="7.765" errors="0">
+<testcase name="Api Testing" classname="..\api-test\restful-booker-api-module.spec.ts" time="1.87">
 <system-out>
 <![CDATA[[
-  { bookingid: [33m1094[39m }, { bookingid: [33m1429[39m }, { bookingid: [33m2014[39m },
-  { bookingid: [33m3290[39m }, { bookingid: [33m2450[39m }, { bookingid: [33m1970[39m },
-  { bookingid: [33m2399[39m }, { bookingid: [33m2942[39m }, { bookingid: [33m1075[39m },
-  { bookingid: [33m3347[39m }, { bookingid: [33m2652[39m }, { bookingid: [33m902[39m },
-  { bookingid: [33m1236[39m }, { bookingid: [33m3765[39m }, { bookingid: [33m1754[39m },
-  { bookingid: [33m2213[39m }, { bookingid: [33m367[39m },  { bookingid: [33m3882[39m },
-  { bookingid: [33m1060[39m }, { bookingid: [33m948[39m },  { bookingid: [33m1314[39m },
-  { bookingid: [33m3969[39m }, { bookingid: [33m1409[39m }, { bookingid: [33m260[39m },
-  { bookingid: [33m3751[39m }, { bookingid: [33m3095[39m }, { bookingid: [33m218[39m },
-  { bookingid: [33m3175[39m }, { bookingid: [33m48[39m },   { bookingid: [33m3413[39m },
-  { bookingid: [33m2861[39m }, { bookingid: [33m3879[39m }, { bookingid: [33m2196[39m },
-  { bookingid: [33m914[39m },  { bookingid: [33m556[39m },  { bookingid: [33m1583[39m },
-  { bookingid: [33m1088[39m }, { bookingid: [33m647[39m },  { bookingid: [33m3188[39m },
-  { bookingid: [33m2181[39m }, { bookingid: [33m3243[39m }, { bookingid: [33m1221[39m },
-  { bookingid: [33m2030[39m }, { bookingid: [33m3685[39m }, { bookingid: [33m1804[39m },
-  { bookingid: [33m790[39m },  { bookingid: [33m2819[39m }, { bookingid: [33m3441[39m },
-  { bookingid: [33m97[39m },   { bookingid: [33m176[39m },  { bookingid: [33m2921[39m },
-  { bookingid: [33m3797[39m }, { bookingid: [33m572[39m },  { bookingid: [33m3076[39m },
-  { bookingid: [33m3483[39m }, { bookingid: [33m2774[39m }, { bookingid: [33m359[39m },
-  { bookingid: [33m665[39m },  { bookingid: [33m1365[39m }, { bookingid: [33m3289[39m },
-  { bookingid: [33m2512[39m }, { bookingid: [33m2150[39m }, { bookingid: [33m996[39m },
-  { bookingid: [33m3099[39m }, { bookingid: [33m2084[39m }, { bookingid: [33m2831[39m },
-  { bookingid: [33m1766[39m }, { bookingid: [33m2544[39m }, { bookingid: [33m928[39m },
-  { bookingid: [33m484[39m },  { bookingid: [33m530[39m },  { bookingid: [33m2916[39m },
-  { bookingid: [33m741[39m },  { bookingid: [33m2967[39m }, { bookingid: [33m67[39m },
-  { bookingid: [33m1242[39m }, { bookingid: [33m1632[39m }, { bookingid: [33m3522[39m },
-  { bookingid: [33m2378[39m }, { bookingid: [33m142[39m },  { bookingid: [33m2148[39m },
-  { bookingid: [33m2365[39m }, { bookingid: [33m1675[39m }, { bookingid: [33m3761[39m },
-  { bookingid: [33m327[39m },  { bookingid: [33m1691[39m }, { bookingid: [33m3919[39m },
-  { bookingid: [33m872[39m },  { bookingid: [33m270[39m },  { bookingid: [33m1280[39m },
-  { bookingid: [33m2408[39m }, { bookingid: [33m1850[39m }, { bookingid: [33m428[39m },
-  { bookingid: [33m3825[39m }, { bookingid: [33m887[39m },  { bookingid: [33m3659[39m },
-  { bookingid: [33m3686[39m }, { bookingid: [33m3743[39m }, { bookingid: [33m3111[39m },
-  { bookingid: [33m3476[39m },
-  ... 2626 more items
+  { bookingid: [33m950[39m },  { bookingid: [33m1068[39m }, { bookingid: [33m1324[39m },
+  { bookingid: [33m1626[39m }, { bookingid: [33m1150[39m }, { bookingid: [33m495[39m },
+  { bookingid: [33m28[39m },   { bookingid: [33m237[39m },  { bookingid: [33m553[39m },
+  { bookingid: [33m203[39m },  { bookingid: [33m730[39m },  { bookingid: [33m687[39m },
+  { bookingid: [33m217[39m },  { bookingid: [33m1869[39m }, { bookingid: [33m282[39m },
+  { bookingid: [33m865[39m },  { bookingid: [33m1544[39m }, { bookingid: [33m1974[39m },
+  { bookingid: [33m1895[39m }, { bookingid: [33m850[39m },  { bookingid: [33m1643[39m },
+  { bookingid: [33m1093[39m }, { bookingid: [33m316[39m },  { bookingid: [33m214[39m },
+  { bookingid: [33m740[39m },  { bookingid: [33m835[39m },  { bookingid: [33m642[39m },
+  { bookingid: [33m1868[39m }, { bookingid: [33m9[39m },    { bookingid: [33m1097[39m },
+  { bookingid: [33m266[39m },  { bookingid: [33m707[39m },  { bookingid: [33m1101[39m },
+  { bookingid: [33m1971[39m }, { bookingid: [33m729[39m },  { bookingid: [33m1421[39m },
+  { bookingid: [33m645[39m },  { bookingid: [33m1752[39m }, { bookingid: [33m27[39m },
+  { bookingid: [33m1844[39m }, { bookingid: [33m1671[39m }, { bookingid: [33m40[39m },
+  { bookingid: [33m291[39m },  { bookingid: [33m1379[39m }, { bookingid: [33m751[39m },
+  { bookingid: [33m1437[39m }, { bookingid: [33m978[39m },  { bookingid: [33m1083[39m },
+  { bookingid: [33m1832[39m }, { bookingid: [33m180[39m },  { bookingid: [33m814[39m },
+  { bookingid: [33m1713[39m }, { bookingid: [33m1739[39m }, { bookingid: [33m1127[39m },
+  { bookingid: [33m1590[39m }, { bookingid: [33m65[39m },   { bookingid: [33m1027[39m },
+  { bookingid: [33m100[39m },  { bookingid: [33m1396[39m }, { bookingid: [33m885[39m },
+  { bookingid: [33m31[39m },   { bookingid: [33m1630[39m }, { bookingid: [33m84[39m },
+  { bookingid: [33m745[39m },  { bookingid: [33m1704[39m }, { bookingid: [33m749[39m },
+  { bookingid: [33m117[39m },  { bookingid: [33m300[39m },  { bookingid: [33m1995[39m },
+  { bookingid: [33m1238[39m }, { bookingid: [33m345[39m },  { bookingid: [33m2014[39m },
+  { bookingid: [33m677[39m },  { bookingid: [33m1664[39m }, { bookingid: [33m672[39m },
+  { bookingid: [33m1928[39m }, { bookingid: [33m1267[39m }, { bookingid: [33m1002[39m },
+  { bookingid: [33m874[39m },  { bookingid: [33m837[39m },  { bookingid: [33m1125[39m },
+  { bookingid: [33m1730[39m }, { bookingid: [33m2016[39m }, { bookingid: [33m886[39m },
+  { bookingid: [33m184[39m },  { bookingid: [33m1683[39m }, { bookingid: [33m1118[39m },
+  { bookingid: [33m43[39m },   { bookingid: [33m804[39m },  { bookingid: [33m1111[39m },
+  { bookingid: [33m1654[39m }, { bookingid: [33m1155[39m }, { bookingid: [33m7[39m },
+  { bookingid: [33m1075[39m }, { bookingid: [33m1138[39m }, { bookingid: [33m390[39m },
+  { bookingid: [33m442[39m },  { bookingid: [33m690[39m },  { bookingid: [33m375[39m },
+  { bookingid: [33m478[39m },
+  ... 1308 more items
 ]
 ]]>
 </system-out>
 </testcase>
-<testcase name="id - 8 [Restful-Booker &gt; Booking] Verify that the user is able to fetch all the booking IDs using GET API and receive valid response" classname="..\api-test\restful-booker-api-module.spec.ts" time="0.611">
+<testcase name="id - 8 [Restful-Booker &gt; Booking] Verify that the user is able to fetch all the booking IDs using GET API and receive valid response" classname="..\api-test\restful-booker-api-module.spec.ts" time="0.505">
 <properties>
 <property name="Test Case link" value="https://dev.azure.com/wishinfinite/Wishinfinite/_workitems/edit/8">
 </property>
 </properties>
 <system-out>
 <![CDATA[[
-  { bookingid: [33m1094[39m }, { bookingid: [33m1429[39m }, { bookingid: [33m2014[39m },
-  { bookingid: [33m3290[39m }, { bookingid: [33m2450[39m }, { bookingid: [33m1970[39m },
-  { bookingid: [33m2399[39m }, { bookingid: [33m2942[39m }, { bookingid: [33m1075[39m },
-  { bookingid: [33m3347[39m }, { bookingid: [33m2652[39m }, { bookingid: [33m902[39m },
-  { bookingid: [33m1236[39m }, { bookingid: [33m3765[39m }, { bookingid: [33m1754[39m },
-  { bookingid: [33m2213[39m }, { bookingid: [33m367[39m },  { bookingid: [33m3882[39m },
-  { bookingid: [33m1060[39m }, { bookingid: [33m948[39m },  { bookingid: [33m1314[39m },
-  { bookingid: [33m3969[39m }, { bookingid: [33m1409[39m }, { bookingid: [33m260[39m },
-  { bookingid: [33m3751[39m }, { bookingid: [33m3095[39m }, { bookingid: [33m218[39m },
-  { bookingid: [33m3175[39m }, { bookingid: [33m48[39m },   { bookingid: [33m3413[39m },
-  { bookingid: [33m2861[39m }, { bookingid: [33m3879[39m }, { bookingid: [33m2196[39m },
-  { bookingid: [33m914[39m },  { bookingid: [33m556[39m },  { bookingid: [33m1583[39m },
-  { bookingid: [33m1088[39m }, { bookingid: [33m647[39m },  { bookingid: [33m3188[39m },
-  { bookingid: [33m2181[39m }, { bookingid: [33m3243[39m }, { bookingid: [33m1221[39m },
-  { bookingid: [33m2030[39m }, { bookingid: [33m3685[39m }, { bookingid: [33m1804[39m },
-  { bookingid: [33m790[39m },  { bookingid: [33m2819[39m }, { bookingid: [33m3441[39m },
-  { bookingid: [33m97[39m },   { bookingid: [33m176[39m },  { bookingid: [33m2921[39m },
-  { bookingid: [33m3797[39m }, { bookingid: [33m572[39m },  { bookingid: [33m3076[39m },
-  { bookingid: [33m3483[39m }, { bookingid: [33m2774[39m }, { bookingid: [33m359[39m },
-  { bookingid: [33m665[39m },  { bookingid: [33m1365[39m }, { bookingid: [33m3289[39m },
-  { bookingid: [33m2512[39m }, { bookingid: [33m2150[39m }, { bookingid: [33m996[39m },
-  { bookingid: [33m3099[39m }, { bookingid: [33m2084[39m }, { bookingid: [33m2831[39m },
-  { bookingid: [33m1766[39m }, { bookingid: [33m2544[39m }, { bookingid: [33m928[39m },
-  { bookingid: [33m484[39m },  { bookingid: [33m530[39m },  { bookingid: [33m2916[39m },
-  { bookingid: [33m741[39m },  { bookingid: [33m2967[39m }, { bookingid: [33m67[39m },
-  { bookingid: [33m1242[39m }, { bookingid: [33m1632[39m }, { bookingid: [33m3522[39m },
-  { bookingid: [33m2378[39m }, { bookingid: [33m142[39m },  { bookingid: [33m2148[39m },
-  { bookingid: [33m2365[39m }, { bookingid: [33m1675[39m }, { bookingid: [33m3761[39m },
-  { bookingid: [33m327[39m },  { bookingid: [33m1691[39m }, { bookingid: [33m3919[39m },
-  { bookingid: [33m872[39m },  { bookingid: [33m270[39m },  { bookingid: [33m1280[39m },
-  { bookingid: [33m2408[39m }, { bookingid: [33m1850[39m }, { bookingid: [33m428[39m },
-  { bookingid: [33m3825[39m }, { bookingid: [33m887[39m },  { bookingid: [33m3659[39m },
-  { bookingid: [33m3686[39m }, { bookingid: [33m3743[39m }, { bookingid: [33m3111[39m },
-  { bookingid: [33m3476[39m },
-  ... 2634 more items
+  { bookingid: [33m950[39m },  { bookingid: [33m1068[39m }, { bookingid: [33m1324[39m },
+  { bookingid: [33m1626[39m }, { bookingid: [33m1150[39m }, { bookingid: [33m495[39m },
+  { bookingid: [33m28[39m },   { bookingid: [33m237[39m },  { bookingid: [33m553[39m },
+  { bookingid: [33m203[39m },  { bookingid: [33m730[39m },  { bookingid: [33m687[39m },
+  { bookingid: [33m217[39m },  { bookingid: [33m1869[39m }, { bookingid: [33m282[39m },
+  { bookingid: [33m865[39m },  { bookingid: [33m1544[39m }, { bookingid: [33m1974[39m },
+  { bookingid: [33m1895[39m }, { bookingid: [33m850[39m },  { bookingid: [33m1643[39m },
+  { bookingid: [33m1093[39m }, { bookingid: [33m316[39m },  { bookingid: [33m214[39m },
+  { bookingid: [33m740[39m },  { bookingid: [33m835[39m },  { bookingid: [33m642[39m },
+  { bookingid: [33m1868[39m }, { bookingid: [33m9[39m },    { bookingid: [33m1097[39m },
+  { bookingid: [33m266[39m },  { bookingid: [33m707[39m },  { bookingid: [33m1101[39m },
+  { bookingid: [33m1971[39m }, { bookingid: [33m729[39m },  { bookingid: [33m1421[39m },
+  { bookingid: [33m645[39m },  { bookingid: [33m1752[39m }, { bookingid: [33m27[39m },
+  { bookingid: [33m1844[39m }, { bookingid: [33m1671[39m }, { bookingid: [33m40[39m },
+  { bookingid: [33m291[39m },  { bookingid: [33m1379[39m }, { bookingid: [33m751[39m },
+  { bookingid: [33m1437[39m }, { bookingid: [33m978[39m },  { bookingid: [33m1083[39m },
+  { bookingid: [33m1832[39m }, { bookingid: [33m180[39m },  { bookingid: [33m814[39m },
+  { bookingid: [33m1713[39m }, { bookingid: [33m1739[39m }, { bookingid: [33m1127[39m },
+  { bookingid: [33m1590[39m }, { bookingid: [33m2027[39m }, { bookingid: [33m65[39m },
+  { bookingid: [33m1027[39m }, { bookingid: [33m100[39m },  { bookingid: [33m1396[39m },
+  { bookingid: [33m885[39m },  { bookingid: [33m31[39m },   { bookingid: [33m1630[39m },
+  { bookingid: [33m84[39m },   { bookingid: [33m745[39m },  { bookingid: [33m1704[39m },
+  { bookingid: [33m749[39m },  { bookingid: [33m117[39m },  { bookingid: [33m300[39m },
+  { bookingid: [33m1995[39m }, { bookingid: [33m1238[39m }, { bookingid: [33m345[39m },
+  { bookingid: [33m2014[39m }, { bookingid: [33m677[39m },  { bookingid: [33m1664[39m },
+  { bookingid: [33m672[39m },  { bookingid: [33m1928[39m }, { bookingid: [33m1267[39m },
+  { bookingid: [33m1002[39m }, { bookingid: [33m874[39m },  { bookingid: [33m837[39m },
+  { bookingid: [33m1125[39m }, { bookingid: [33m1730[39m }, { bookingid: [33m2016[39m },
+  { bookingid: [33m886[39m },  { bookingid: [33m184[39m },  { bookingid: [33m1683[39m },
+  { bookingid: [33m1118[39m }, { bookingid: [33m43[39m },   { bookingid: [33m804[39m },
+  { bookingid: [33m1111[39m }, { bookingid: [33m1654[39m }, { bookingid: [33m1155[39m },
+  { bookingid: [33m7[39m },    { bookingid: [33m1075[39m }, { bookingid: [33m1138[39m },
+  { bookingid: [33m390[39m },  { bookingid: [33m442[39m },  { bookingid: [33m690[39m },
+  { bookingid: [33m375[39m },
+  ... 1313 more items
 ]
 ]]>
 </system-out>
 </testcase>
-<testcase name="id - 9 [Restful-Booker &gt; Booking] Verify that the user is able to fetch booking details for a booking id using GET API and receives" classname="..\api-test\restful-booker-api-module.spec.ts" time="0.329">
+<testcase name="id - 9 [Restful-Booker &gt; Booking] Verify that the user is able to fetch booking details for a booking id using GET API and receives" classname="..\api-test\restful-booker-api-module.spec.ts" time="0.405">
 <properties>
 <property name="Test Case link" value="https://dev.azure.com/wishinfinite/Wishinfinite/_workitems/edit/9">
 </property>
@@ -169,16 +177,19 @@
 <failure message="restful-booker-api-module.spec.ts:32:7 id - 9 [Restful-Booker &gt; Booking] Verify that the user is able to fetch booking details for a booking id using GET API and receives" type="FAILURE">
 <![CDATA[  [apiTest] › ..\api-test\restful-booker-api-module.spec.ts:32:7 › id - 9 [Restful-Booker > Booking] Verify that the user is able to fetch booking details for a booking id using GET API and receives @API @UAT 
 
-    SyntaxError: Unexpected token 'N', "Not Found" is not valid JSON
+    Error: expect(received).toEqual(expected) // deep equality
 
-      39 | ,async({request})=>{
-      40 |   const bookingResp = await request.get(`${apiPathData.booking_path}/${restfulApiData.booking_id}`);
-    > 41 |   const bookingJsonResp = await bookingResp.json();
-         |                           ^
-      42 |   console.log(bookingJsonResp);
-      43 |   expect(bookingResp.status()).toBe(200);
+    Expected: "Whish"
+    Received: "Mark"
+
       44 |   expect(bookingResp.statusText()).toBe('OK');
-        at C:\PlaywrightProjects\Playwright_Framework\tests\api-test\restful-booker-api-module.spec.ts:41:27
+      45 |   expect(bookingJsonResp).not.toBeNull();
+    > 46 |   expect(bookingJsonResp.firstname).toEqual(restfulApiData.first_name);
+         |                                     ^
+      47 | }
+      48 | );
+      49 |
+        at C:\PlaywrightProjects\Playwright_Framework\tests\api-test\restful-booker-api-module.spec.ts:46:37
 
     attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
     ..\..\test-results\restful-booker-api-module--2d81f--using-GET-API-and-receives-apiTest\trace.zip
@@ -190,18 +201,25 @@
 ]]>
 </failure>
 <system-out>
-<![CDATA[
+<![CDATA[{
+  firstname: [32m'Mark'[39m,
+  lastname: [32m'Brown'[39m,
+  totalprice: [33m573[39m,
+  depositpaid: [33mtrue[39m,
+  bookingdates: { checkin: [32m'2017-02-08'[39m, checkout: [32m'2021-06-01'[39m }
+}
+
 [[ATTACHMENT|restful-booker-api-module--2d81f--using-GET-API-and-receives-apiTest\trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="id - 10 [Restful-Booker &gt; Booking] Verify that the user is able to create new booking using Post API and receive valid response" classname="..\api-test\restful-booker-api-module.spec.ts" time="2.566">
+<testcase name="id - 10 [Restful-Booker &gt; Booking] Verify that the user is able to create new booking using Post API and receive valid response" classname="..\api-test\restful-booker-api-module.spec.ts" time="1.094">
 <properties>
 <property name="Test Case Link" value="https://dev.azure.com/wishinfinite/Wishinfinite/_workitems/edit/9">
 </property>
 </properties>
 </testcase>
-<testcase name="id - 11 [Restful-Booker &gt; Booking] Verify that the user is able to Update existing booking using Put API and receive valid response" classname="..\api-test\restful-booker-api-module.spec.ts" time="0.693">
+<testcase name="id - 11 [Restful-Booker &gt; Booking] Verify that the user is able to Update existing booking using Put API and receive valid response" classname="..\api-test\restful-booker-api-module.spec.ts" time="0.676">
 <properties>
 <property name="Test Case Link" value="https://dev.azure.com/wishinfinite/Wishinfinite/_workitems/edit/11">
 </property>
@@ -238,7 +256,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="ID -12 - [Restful-Booker] Booking Verify that the user is able to partially update existing booking using PATCH API and receive val" classname="..\api-test\restful-booker-api-module.spec.ts" time="2.74">
+<testcase name="ID -12 - [Restful-Booker] Booking Verify that the user is able to partially update existing booking using PATCH API and receive val" classname="..\api-test\restful-booker-api-module.spec.ts" time="1.687">
 <properties>
 <property name="Test Case Link" value="https://dev.azure.com/wishinfinite/WishInfinite/_workitems/edit/12">
 </property>
@@ -275,7 +293,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="ID -13 - [Restful-Booker] Booking Verify that the user is able to delete existing booking using Delete API and receive valid re" classname="..\api-test\restful-booker-api-module.spec.ts" time="2.37">
+<testcase name="ID -13 - [Restful-Booker] Booking Verify that the user is able to delete existing booking using Delete API and receive valid re" classname="..\api-test\restful-booker-api-module.spec.ts" time="1.528">
 <properties>
 <property name="Test Case Link" value="https://dev.azure.com/wishinfinite/WishInfinite/_workitems/edit/13">
 </property>
