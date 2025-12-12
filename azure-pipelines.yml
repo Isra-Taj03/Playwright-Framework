@@ -39,8 +39,8 @@ steps:
 - script: npx playwright install --with-deps
   displayName: 'Install Playwright Browsers'
 
-- script: SECRET_KEY=$(SECRET_KEY_VAL) npm run test_demo_ui_cr_hl_api
-# - script: SECRET_KEY=$(SECRET_KEY_VAL) npm run $({{parameters.SCRIPT_KEY_VAL2}})
+- script: SECRET_KEY=$(SECRET_KEY_VAL) npm run $(SCRIPT_KEY _VAL)
+# - script: SECRET_KEY=$(SECRET_KEY_VAL) npm run $({{parameters.SCRIPT_KEY_VAL}})
   displayName: 'Run Tests'
 
 - task: PublishPipelineArtifact@1
