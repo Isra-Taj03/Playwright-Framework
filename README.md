@@ -47,16 +47,25 @@ Before you begin, ensure you have the following installed:
 
 
 🏃 Running TestsYou can execute tests using the following commands:CommandActionnpx playwright testRuns all tests in headless modenpx playwright test --uiOpens the interactive UI Modenpx playwright test --headedRuns tests in headed mode (visible browser)npx playwright show-reportOpens the last execution report
-📁 Project StructurePlaintext
-├── tests/              
-# Test specification files (.spec.ts)
-├── pages/               # Page Object classes (Login, Dashboard, etc.)
-├── playwright-report/   # Generated HTML reports (after run)
-├── test-results/        # Screenshots and traces from failed tests
-├── playwright.config.ts # Global framework configuration
-└── package.json         # Project scripts and dependencies
 
-🔍 Best Practices AppliedAuto-waiting: Leverages Playwright's built-in auto-wait functionality to reduce flakiness.Dynamic Assertions: Uses web-first assertions like expect(locator).toBeVisible().Fixtures: Utilizes Playwright fixtures for clean setup and teardown.🤝 ContributingContributions are welcome!Fork the Project.Create your Feature Branch.Commit your Changes.Open a Pull Request.Maintained by Isra Taj
+📁 Project StructurePlaintext
+
+├── tests/    
+# Test specification files (.spec.ts)
+├── pages/              
+# Page Object classes (Login, Dashboard, etc.)
+├── playwright-report/  
+# Generated HTML reports (after run)
+├── test-results/      
+# Screenshots and traces from failed tests
+├── playwright.config.ts 
+# Global framework configuration
+└── package.json         
+# Project scripts and dependencies
+
+🔍 Best Practices AppliedAuto-waiting: Leverages Playwright's built-in auto-wait functionality to reduce flakiness.Dynamic Assertions: Uses web-first assertions like expect(locator).toBeVisible().
+Fixtures: Utilizes Playwright fixtures for clean setup and teardown.
+🤝 ContributingContributions are welcome!Fork the Project.Create your Feature Branch.Commit your Changes.Open a Pull Request.Maintained by Isra Taj
 ***
 
 ### Why this fits your repo:
