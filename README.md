@@ -36,8 +36,14 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/Isra-Taj03/Playwright-Framework.git
    cd Playwright-Framework
-   Install dependencies: npm install
-   Install Playwright: playwright install
+
+2. **Install project dependencies**: This installs the packages listed in your package.json (like Playwright, TypeScript, etc.)
+   ```bash
+   npm install
+
+3. **Install Playwright Browsers**: Crucial step: Playwright needs its own browser binaries to run tests. This command downloads the necessary versions of Chromium, Firefox, and WebKit.
+   ```bash
+   npx playwright install
 
 
 🏃 Running TestsYou can execute tests using the following commands:CommandActionnpx playwright testRuns all tests in headless modenpx playwright test --uiOpens the interactive UI Modenpx playwright test --headedRuns tests in headed mode (visible browser)npx playwright show-reportOpens the last execution report
