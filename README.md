@@ -34,10 +34,10 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Isra-Taj03/Playwright-Framework.git](https://github.com/Isra-Taj03/Playwright-Framework.git)
+   git clone https://github.com/Isra-Taj03/Playwright-Framework.git
    cd Playwright-Framework
-Install dependencies:Bashnpm install
-Install Playwright Browsers:Bashnpx playwright install
+   Install dependencies: npm install
+   Install Playwright: playwright install
 
 
 🏃 Running TestsYou can execute tests using the following commands:CommandActionnpx playwright testRuns all tests in headless modenpx playwright test --uiOpens the interactive UI Modenpx playwright test --headedRuns tests in headed mode (visible browser)npx playwright show-reportOpens the last execution report
